@@ -1,0 +1,816 @@
+#itil 
+- [[#1 Key Concepts|1 Key Concepts]]
+	- [[#1 Key Concepts#1.3 Framework vs Standard|1.3 Framework vs Standard]]
+	- [[#1 Key Concepts#1.4 About the Exam|1.4 About the Exam]]
+- [[#2 Key Concepts|2 Key Concepts]]
+	- [[#2 Key Concepts#2.1 Services & Service Management|2.1 Services & Service Management]]
+	- [[#2 Key Concepts#2.2 Types of Service Organizations|2.2 Types of Service Organizations]]
+	- [[#2 Key Concepts#2.3 Value & Cost|2.3 Value & Cost]]
+	- [[#2 Key Concepts#2.4 Output vs Outcome|2.4 Output vs Outcome]]
+	- [[#2 Key Concepts#2.5 Risk Management|2.5 Risk Management]]
+	- [[#2 Key Concepts#2.6  Sponsors, Customers, and Users|2.6  Sponsors, Customers, and Users]]
+- [[#3 ITIL Guiding Principles - Part One|3 ITIL Guiding Principles - Part One]]
+	- [[#3 ITIL Guiding Principles - Part One#3.1 Introduction to Guiding Principles|3.1 Introduction to Guiding Principles]]
+	- [[#3 ITIL Guiding Principles - Part One#3.2 Focus on the Value|3.2 Focus on the Value]]
+	- [[#3 ITIL Guiding Principles - Part One#3.3 Start Where You Are|3.3 Start Where You Are]]
+	- [[#3 ITIL Guiding Principles - Part One#3.4 Progress Iteratively with Feedback|3.4 Progress Iteratively with Feedback]]
+- [[#4 ITIL Guiding Principles - Part Two|4 ITIL Guiding Principles - Part Two]]
+	- [[#4 ITIL Guiding Principles - Part Two#4.1 Collaborating an Promoting Visibility|4.1 Collaborating an Promoting Visibility]]
+	- [[#4 ITIL Guiding Principles - Part Two#4.2 Thinking and Working Holistically|4.2 Thinking and Working Holistically]]
+	- [[#4 ITIL Guiding Principles - Part Two#4.3 Keeping It Simple and Practical|4.3 Keeping It Simple and Practical]]
+	- [[#4 ITIL Guiding Principles - Part Two#4.4 Optimizing and Automating|4.4 Optimizing and Automating]]
+- [[#5 The Four Dimensions of Service Management|5 The Four Dimensions of Service Management]]
+	- [[#5 The Four Dimensions of Service Management#5.1 Introduction to the Dimensions|5.1 Introduction to the Dimensions]]
+	- [[#5 The Four Dimensions of Service Management#5.2 Organizations and People|5.2 Organizations and People]]
+	- [[#5 The Four Dimensions of Service Management#5.3 Information and Technology|5.3 Information and Technology]]
+	- [[#5 The Four Dimensions of Service Management#5.4 Partners and Suppliers|5.4 Partners and Suppliers]]
+	- [[#5 The Four Dimensions of Service Management#5.5 Value Streams and Processes|5.5 Value Streams and Processes]]
+- [[#Section 6 - The Service Value System (SVS)|Section 6 - The Service Value System (SVS)]]
+	- [[#Section 6 - The Service Value System (SVS)#6.1 Purpose of the SVS|6.1 Purpose of the SVS]]
+	- [[#Section 6 - The Service Value System (SVS)#6.2 The Main Elements of the SVS|6.2 The Main Elements of the SVS]]
+- [[#7 The Service Value Chain (SVC)|7 The Service Value Chain (SVC)]]
+	- [[#7 The Service Value Chain (SVC)#7.1 Introduction to the SVC|7.1 Introduction to the SVC]]
+	- [[#7 The Service Value Chain (SVC)#7.2 Plan|7.2 Plan]]
+	- [[#7 The Service Value Chain (SVC)#7.3 Engage|7.3 Engage]]
+	- [[#7 The Service Value Chain (SVC)#7.4 Design and Transition|7.4 Design and Transition]]
+	- [[#7 The Service Value Chain (SVC)#7.5 Obtain/Build|7.5 Obtain/Build]]
+	- [[#7 The Service Value Chain (SVC)#7.6 Deliver and Support|7.6 Deliver and Support]]
+	- [[#7 The Service Value Chain (SVC)#7.7 Improve|7.7 Improve]]
+- [[#8 The ITIL Practices - Part 1|8 The ITIL Practices - Part 1]]
+	- [[#8 The ITIL Practices - Part 1#8.1 Introduction on the ITIL Practices|8.1 Introduction on the ITIL Practices]]
+	- [[#8 The ITIL Practices - Part 1#8.2 Service Level Management|8.2 Service Level Management]]
+	- [[#8 The ITIL Practices - Part 1#8.3 Change Enablement|8.3 Change Enablement]]
+	- [[#8 The ITIL Practices - Part 1#8.4 Continual Improvement|8.4 Continual Improvement]]
+- [[#9 The ITIL Practices - Part 2|9 The ITIL Practices - Part 2]]
+	- [[#9 The ITIL Practices - Part 2#9.1 Incident Management|9.1 Incident Management]]
+	- [[#9 The ITIL Practices - Part 2#9.2 Problem Management|9.2 Problem Management]]
+	- [[#9 The ITIL Practices - Part 2#9.3 Service Request Management|9.3 Service Request Management]]
+	- [[#9 The ITIL Practices - Part 2#9.4 Service Desk|9.4 Service Desk]]
+	- [[#9 The ITIL Practices - Part 2#9.5 Relationship Management|9.5 Relationship Management]]
+- [[#10 The ITIL Practices - Part 3|10 The ITIL Practices - Part 3]]
+	- [[#10 The ITIL Practices - Part 3#10.1 Supplier Management|10.1 Supplier Management]]
+	- [[#10 The ITIL Practices - Part 3#10.2 Information Security Management|10.2 Information Security Management]]
+	- [[#10 The ITIL Practices - Part 3#10.3 IT Asset Management|10.3 IT Asset Management]]
+	- [[#10 The ITIL Practices - Part 3#10.4 Service Configuration Management|10.4 Service Configuration Management]]
+	- [[#10 The ITIL Practices - Part 3#10.5 Release Management|10.5 Release Management]]
+	- [[#10 The ITIL Practices - Part 3#10.6 Deployment Management|10.6 Deployment Management]]
+	- [[#10 The ITIL Practices - Part 3#10.7 Monitoring and Event Management|10.7 Monitoring and Event Management]]
+- [[#11 Course Conclusion|11 Course Conclusion]]
+	- [[#11 Course Conclusion#11.1 Course Summary|11.1 Course Summary]]
+	- [[#11 Course Conclusion#11.2 ITIL Qualification Scheme and Changes From V3|11.2 ITIL Qualification Scheme and Changes From V3]]
+
+****
+# 1 Key Concepts
+## 1.3 Framework vs Standard
+
+**Standard**
+- Mandatory requirements
+- Specific topic
+- Can lead to certification
+**Framework**
+- Guideline
+- Best practices
+- Non-prescriptive
+- Customization required
+
+## 1.4 About the Exam
+- Can change answers
+- 40 questions
+- One hour
+- 26 correct answers to pass (65%)
+![[Pasted image 20230425102855.png]]
+
+****
+# 2 Key Concepts
+## 2.1 Services & Service Management
+**What Is a Service?**
+- Helping customer achieve outcomes
+- Performing a task instead of the customer
+- The service provider deals with the specific risks and costs associated with that task
+- Value is co-created
+**Service Offerings**
+- Mostly, providers sell service offerings (not just services)
+	- e.g. Bank offers Goods (credit card), Access to resources (ATM network), Service Actions (User Support)
+**Service Management**
+- A set of specialized organizational capabilities for enabling value for customers in the form of services
+- Need for service management is relative to the size of the organization
+- ITIL can be used as a guideline for implementing the service management
+## 2.2 Types of Service Organizations
+**Service Organizations**
+- Person or group of people sharing the same objective
+- Can act as a service provider or consumer
+**Service Offerings**
+Service Providers can be internal or external
+![[Pasted image 20230425103838.png]]
+**Service Relationships**- 
+- Most organizations are both consumers and providers
+- Service Relationship Management are the joint activities that bond providers and consumer, therefore co-created value. 
+![[Pasted image 20230425104045.png]]
+
+**Service Provisions:**
+- Manage and configure resources to deliver service
+- Give users access to resources
+- Fulfil the agreed service actions
+- Deliver the required service level managements
+- Ensure continual improvement
+**Service Consumption**
+- Allocate resources needed to use the service
+- Initiate service actions
+- Receive any goods provided by the provider (if requried)
+## 2.3 Value & Cost
+**Value**
+- The perceived benefits, usefulness, and importance of something
+- Customer loyalty
+- Revenue
+- Defined by customer
+- Can be subjective
+- Dynamic and customer specific
+**Value Components**
+- Utility
+- Warranty
+	- Availability
+	- Capacity
+	- Security
+	- Continuity
+**Cost**
+- The amount of money spent on a specific activity or resource
+- Can be removed from the consumer by the service
+- Imposed to the consumer by the service
+## 2.4 Output vs Outcome
+**Output**
+- The result deliverable of an activity
+- Can be tangible or intangible
+- Can help customers achieve outcomes
+**Outcome**
+- The intended result for stakeholders
+- Enabled by one or more outputs
+- Each customer may have different outcomes
+**Components of Value**
+- Outputs lead to outcome which give customer value
+## 2.5 Risk Management
+**Risk**
+- Uncertainty of outcome
+- Events that could harm or loss
+- Increase difficulty to achieve objectives
+- Risk vs opportunity
+**Risk Management**
+- Ensures the organization understands and properly handles risk
+- Identify -> Assess -> Treat
+- Must be an integral part of org
+- Must be supported by risk culture
+- Vital for value creation
+- Should be addressed at all levels
+## 2.6  Sponsors, Customers, and Users
+**Roles in the Organizations**
+- Sponsor: Responsible for budget
+- Customer: Defining requirements and responsible for the outcome
+- User: Responsible for using the service
+**Key Points**
+- Each role may have a different perspective on value
+- They could be played by the same individual or not
+- All are important and must be considered
+**Other Stakeholders**
+- Internal Stakeholders
+	- Sponsors
+	- Customers
+	- Users
+	- Service Provider
+- External Stakeholders
+	- External Regulators
+	- Society & Community
+	- Shareholders
+	- Customers
+	- Suppliers
+****
+# 3 ITIL Guiding Principles - Part One
+## 3.1 Introduction to Guiding Principles
+**What are the ITIL Guiding Principles**
+- Recommendations from best practices
+- Applicable to any organization adopting service management
+- They are universal and enduring
+- They interact and depend on each other
+**Seven ITIL Guiding Principles**
+[[#3.2 Focus on the Value]]
+[[#3.3 Start Where You Are]]
+[[#3.4 Progress Iteratively with Feedback]]
+[[#4.1 Collaborating an Promoting Visibility]]
+[[#4.2 Thinking and Working Holistically]]
+[[#4.3 Keeping It Simple and Practical]]
+[[#4.4 Optimizing and Automating]]
+
+## 3.2 Focus on the Value
+**Focus on the Value**
+- Every service should be designed with a focus on providing value
+- Value should be addressed to the consumer but not just them
+- Value may come in different forms
+- Essential to now and understand the customer
+- Value is defined by customer needs
+**Understanding Out Customers**
+- Why do they use out service
+- How are the services useful for them
+- How critical are the services for them
+- What happens if the service is unavailable
+**Customer Experience (CX)**
+- Represents determining the component of value
+- Results form their interactions and experiences with out org
+- Bad CX has various causes
+- Subjective and objective
+- Difficult to measure
+- Increasingly important
+## 3.3 Start Where You Are
+**Start Where You Are**
+- Start where you currently are rather than start from scratch
+**Measurement is Key**
+- Measures are key to :
+	- What works and what doesn't
+	- Reuse whenever possible
+	- Avoid throwing away existing assets
+- Measurements may change and influence behaviors
+**Important Points On Measurement**
+- Do not measure everything just because you can
+- Focus on measurements around business outcomes
+- Report only relevant results to the customers
+- Use a balanced set of metrics
+- Keep measurements up to date and relevant
+## 3.4 Progress Iteratively with Feedback
+**Advantage of an Iterative Approach**
+- Complex tasks can be much easier accomplished
+- Should not attempt to do everything at once
+- Smaller sections of a complex problems can be easier to manage
+- Have more chances of delivering in time
+- Detailed design will emerge as we progress
+**Traditional Approach vs Iterative (Agile) Approach**
+- Traditional
+	- Linear
+	- Scope is known from beginning
+	- Customer presence not strictly required
+	- Tends to deliver outdated outputs
+	- Very limited time flexibility for new requirements
+- Iterative/Agile
+	- Iterative, team based
+	- Works on time-boxes way
+	- Relies on feedback loops
+	- Increases speed and flexibility
+	- Improves quality by early correction
+**Importance of Feedback Loops
+- Context may change during iteration
+- New priorities may appear and integration has to be removed or altered
+- Feedback loops may be used here
+- Part of the output of an activity is used for new input
+
+****
+# 4 ITIL Guiding Principles - Part Two
+## 4.1 Collaborating an Promoting Visibility
+**How to Achieve Good Collaboration**
+- Promote inclusion instead of isolation and exclusion
+- Both inside and outside org
+- Good communication and collaboration helps identify and prevent waste and bottlenecks
+- Trust, communication, and collaboration are interconnected
+**Identifying Our Stakeholders**
+![[Pasted image 20230425113501.png]]
+**Key Points to Remember**
+- Roles and responsibilities must be clearly defined
+- More visible the work is the more commitment it can generate
+- Constant communication may help maintain the priority of activities
+- Communication should be adapted to the audience, consistent, and bi-directional
+- Silo activities should be discouraged
+- Hidden agendas should be avoided
+## 4.2 Thinking and Working Holistically
+**Thinking and Working Holistically**
+- Everything the organization does should be focused on the delivery of value
+- Function as an integrated system and consider all the components of an organization and how they interact
+- Every action has consequences
+- ![[Pasted image 20230427193524.png]]
+	- Focus on Value
+	- Start where you are
+	- Keep it simple and practical
+	- Optimize and automate
+	- Collaborate promote visibility
+	- Progress iteratively with feedback
+	- Think and work holistically
+## 4.3 Keeping It Simple and Practical
+**Key Concepts**
+- Avoid activities that do not produce value
+- Use the minimum number of steps to reach objectives
+- Eliminate processes, services and metrics that produce no value
+- Documentation should not be exhaustive
+- Outcome based thinking
+## 4.4 Optimizing and Automating
+**Some Benefits of Automation**
+- Reducing or eliminating human intervention completely
+	- Cost
+	- Productivity
+	- Predictability
+	- Consistency
+**Key Recommendations Regarding Automation**
+- Optimization should be attempted first
+- Do not start with the most complex activitties
+- Do not automate for the sake of automation
+- Automate gradually to maintain 
+
+****
+# 5 The Four Dimensions of Service Management
+## 5.1 Introduction to the Dimensions
+**Purpose of the Four Dimension Model**
+- Provide holistic approach for designing, implementing, and delivering service and service management in general.
+- Organizations and people
+- Information and technology
+- Partners and suppliers
+- Value streams and processes
+**External Factors Impacting the Four Dimensions**
+- Political
+- Economical
+- Social
+- Technology
+- Legal
+- Environment
+## 5.2 Organizations and People
+**Key Concepts**
+- People are a key part in every org
+- Complex orgs require structure and proper management
+- Require roles, responsibility's and systems of authority to be defined
+- Combination of generalists and specialists and effective interfaces between then
+**Organizational Culture and Competencies**
+- Having authority systems may not be enough
+- Leadership should define and champion values that may enable an organizational culture
+- Required competencies and skills need to be identified and maintained
+## 5.3 Information and Technology
+**Key Concepts**
+- Information flows are needed to function and provide services
+- Information is a key output of many services
+- To define a service one must understand the information that needs to be created, collected, processed, used, and delivered
+- After that the technology can be selected
+**Selecting the Right Technology**
+- Workflow management
+- Knowledge bases
+- Inventory system
+- Communication system
+- Analytical tools
+- Options:
+	- Cutting Edge
+	- Mainstream
+	- Legacy
+**Constraints for Information and Technology**
+- Information security and regulatory compliance may introduce constraints
+- Some information may not be allowed
+- Organizational culture may also impact technology choice
+## 5.4 Partners and Suppliers
+**Key Concepts**
+- Dependency on other orgs products or services is inevitable
+- Good collaboration is essential
+- Relationship may have different degrees of formality, flexible to formal
+- Goods=Suppliers, Services=Provides
+**Insourcing and Outsourcing**
+- Strategic focus and corporate culture
+- Demand patterns
+- Lack of resources
+- Cost concerns
+- Subject matter expertise
+- External constraints
+
+## 5.5 Value Streams and Processes
+**Key Concepts**
+- Defining activities and workflows helps integrate the other three dimensions
+- Process is a sequence of activates creating outputs from inputs
+- Processes are documented by procedures
+- Procedures can be detailed through work instructions (optional)
+**Value Streams**
+- Sequence of steps performed by org to create and deliver products and services
+- Can be defined for different business scenarios
+- Should be customized for the organization
+- ![[Pasted image 20230427195928.png]]
+****
+# Section 6 - The Service Value System (SVS)
+## 6.1 Purpose of the SVS
+**The Service Value System**
+- Service management can properly perform only when it operates as a system
+- Mapping and understanding the components is essential
+- This allows for better decisions and better anticipation of their consequences
+- When two organizations work together their SVS's should interconnect
+**The Components of the SVS**
+- ![[Pasted image 20230427200333.png]]
+- Guiding Principles
+	- Recommendations useful for the organization in all circumstances, regardless of changes in its goals, strategies, type of work, or management structure
+- Governance
+	- Providing direction and control for the organization
+- Continual Improvement
+	- Recurring activity performed to ensure that an organization's performance4 continually meets stakeholders' expectations
+- Practices
+	- Sets of organizational resources used for performing repetitive tasks and achieving objectives
+**Inputs and Outputs of the SVS**
+- Opportunity and demand are the main inputs of the SVS
+- Opportunities are options or possibilities to add value for stakeholders or to improve the organization
+- Demand is the consumer need or desire for products and services
+-Value should be the main outcome of the SVS
+
+
+## 6.2 The Main Elements of the SVS
+**The Guiding Principles**
+[[#3.2 Focus on the Value]]
+[[#3.3 Start Where You Are]]
+[[#3.4 Progress Iteratively with Feedback]]
+[[#4.1 Collaborating an Promoting Visibility]]
+[[#4.2 Thinking and Working Holistically]]
+[[#4.3 Keeping It Simple and Practical]]
+[[#4.4 Optimizing and Automating]]
+**Continual Improvement**
+- Recurring activity mandatory in any org
+- Should be embedded on the org culture
+- Should involve everybody in the org
+- Relies heavily on metrics and measurement
+**ITIL Practices**
+- Predefined ways of achieving repetitive tasks
+- Provide consistency and increased performances
+- Along with Service Value Chain they provide an Operating Model for the org
+- Practices
+	- Sets of org resources used for performing repetitive tasks and achieving objectives
+**Governance**
+- Well governed orgs require discipline
+- Opposing forces of governance are Direct and Control
+- Governance should be defined by the top management and cascaded throughout the entire org
+****
+# 7 The Service Value Chain (SVC)
+## 7.1 Introduction to the SVC
+**Purpose of the Service Value Chain**
+- Provide an Operating Model for the org
+- Describes the key activities required to respond to demand and create products and services
+- Contains six activities
+- Each activity contributes to the value chain
+- Activities transform specific inputs into outputs
+**Components of the Service Value Chain**
+- ![[Pasted image 20230427204154.png]]
+- [[#7.2 Plan]]
+- [[#7.3 Engage]]
+- [[#7.4 Design and Transition]]
+- [[#7.5 Obtain/Build]]
+- [[#7.6 Deliver and Support]]
+- [[#7.7 Improve]]
+**Value Streams**
+- Patterns throughout the SVC
+- ![[Pasted image 20230427204245.png]]
+**Key Points about the Service Value Chain**
+- For each activity, inputs could come from the outside of the SVC or other activities
+- To convert inputs to outputs, active initiate different ITIL practices
+- Understanding of each activities purpose is key
+## 7.2 Plan
+**Purpose of the Plan Activity**
+- Ensure a shared understanding of vision, current status, and improvement direction
+- Applies for all four dimensions and all the products and services within the org
+- Planning at all levels is performed through Plan
+**Examples Involving the Plan Activity**
+- Defining new objectives
+- Planning for a new product of service
+- Creating a new security policy
+- Defining requirements for a new contract
+## 7.3 Engage
+**Purpose of the Engage Activity**
+- Provide an understanding or stakeholder needs, transparency, and continual engagement and relationships with all stakeholders
+- All interactions with external parties are done via Engage
+**Examples Involving the Engage Activity**
+- Negotiation with an external service provider
+- Engaging with a new customer
+- Receiving a complaint from a customer
+- Providing performance reports to the customer
+## 7.4 Design and Transition
+**Purpose of the Design and Transition Activity**
+- Ensure that products and services continually meet stakeholder expectations for quality, costs, and time-to-market
+- Define specifications and oversee the implementation of new or changed products and services
+**Examples Involving the Design and Transition Activity**
+- Design an improved version of an existing service
+- Managing the implementation of a new service
+## 7.5 Obtain/Build
+**Purpose of the Obtain/Build Activity**
+- Ensure that service components are available when and where they are needed and meet agreed specifications
+- All new resources are obtained via Obtain/Build
+**Examples Involving the Obtain/Build Activity**
+- Purchasing a new software license as a result of a user request
+- Developing a new module of an application
+## 7.6 Deliver and Support
+**Purpose of the Deliver and Support Activity**
+- Ensure that services are delivered and supported according to agreed specifications and stakeholder expectation
+- Involves all day-to-day tasks required to operate, maintain and monitor a service
+**Examples Involving the Deliver and  Support Activity**
+- Delivering a service according to specifications
+- Informing the user about the completion of a task
+- Solving incidents and service requests
+- Monitoring the real-time performance of the infrastructure
+## 7.7 Improve
+**Purpose of the Improve Activity**
+- Ensure continual improvement of products, services and practices
+- Improvements at all levels are initiated and managed via improve
+- Applied to all value chain activities and the four dimensions
+**Examples Involving the Improve Activity**
+- Initiating a new improvement initiative on a service
+- Managing the improvement of another value chain activity
+- Analyzing customer feedback from satisfaction surveys
+****
+# 8 The ITIL Practices - Part 1
+## 8.1 Introduction on the ITIL Practices
+**Purpose of the ITIL Practices**
+- Predefined ways of achieving repetitive tasks
+- Provide consistency and increase performance
+- 34 in total
+- 15 must be known for the foundation level
+	- [[#8.2 Service Level Management]]
+	- [[#8.3 Change Enablement]]
+	- [[#8.4 Continual Improvement]]
+	- [[#9.1 Incident Management]]
+	- [[#9.2 Problem Management]]
+	- [[#9.3 Service Request Management]]
+	- [[#9.4 Service Desk]]
+	- [[#9.5 Relationship Management]]
+	- [[#10.1 Supplier Management]]
+	- I[[#10.2 Information Security Management]]
+	- [[#10.3 IT Asset Management]]
+	- [[#10.4 Service Configuration Management]]
+	- [[#10.5 Release Management]]
+	- [[#10.6 Deployment Management]]
+	- [[#10.7 Monitoring and Event Management]]
+## 8.2 Service Level Management
+**Purpose of an SLA (Service Level Agreement)**
+- Definition: A documented agreement between a service provider and a customer that identifies both services required and the expected level of service
+- Sets the expectation regarding the service quality
+- Should be a win-win agreement
+- Clear and concise language (non-technical)
+**The Service Level Management Practice**
+- Purpose: To set clear business-based targets for service performance
+- Requires definition, documentation, and active management of service levels
+- Should provide end-to-end visibility of the service performance against defined service levels
+- Periodical service reviews are recommended
+**Key Points Regarding Service Level Management**
+- SLA reports should present "bundles of metrics" not just data
+- They should be written in a customer-relevant language (outcomes)
+- Service Level Managers must collect data from different sources
+- Must have good communication and negotiation skills
+## 8.3 Change Enablement
+**Key Concepts**
+- Purpose: To maximize the number of successful IT changes
+- Risks must be properly assessed
+- Change must be authorized and documented
+- Changed scheduled should be maintained
+**Definition of Change**
+- Addition, modification or removal of anything that could have a direct or indirect effect on service
+- Types of change:
+	- Standard
+		- Low-risk, pre-authorized changes that are well-understood and fully-documented
+	- Normal
+		- Changed that need to be scheduled, assessed and authorized following a standard process
+	- Emergency
+		- Must be implemented as soon as possible, but not without documenting and authorization
+**Concepts of Change Authority**
+- Definition: A person or group who authorizes a change
+- For low risk it is usually someone who can make rapid decisions
+- For higher risk changes it can be as high as the board of directors
+**Change**
+- Changes must be managed both from a technical and organizational perspective
+## 8.4 Continual Improvement
+**Key Concepts**
+- Purpose: To align the org's practices and services with the changing business needs
+- Propagation of an improvement culture
+- Steady progress based on measurements
+- Everybody's involvement
+**Continual Improvement Model**
+- An improvement program methodology
+- Can be applied to any kind of improvement
+- ![[Pasted image 20230427212229.png]]
+**Key Considerations Regarding Continual Improvement**
+- For guidance and coordination, small dedicated team is recommended
+- A Continual Improvement Register (CIR) should be used for visibility
+- Clear prioritization rules should be defined
+- Improvement requires change and change can impact people
+**Common Methods and Tools**
+- SWOT
+- Balanced Scorecards
+- Audits
+- Lean
+- Agile
+- DevOps
+****
+# 9 The ITIL Practices - Part 2
+## 9.1 Incident Management
+**Purpose of Incident Management**
+- Purpose: Restore normal service operations as quickly as possible
+- All incidents must be logged, prioritized and categorized
+- Should be special procedures for major incidents and security incidents
+- Definition: An unplanned interruption to a service or a reduction in the quality of a service
+**Key Concepts Regarding Incident Management**
+- Incidents should be documented in incident records
+- More information the better
+- Multiple teams may be involved in diagnosing and resolving incidents
+- Documented process is recommended but not necessarily detailed procedures for diagnostics, investigation and resolution
+- Parts of the process may be outsourced
+## 9.2 Problem Management
+**Purpose of Problem Management**
+- Purpose: Identify actual and potential causes of incidents, and managing workarounds and known errors
+- Reduce the likelihood and impact of incidents
+- Problems should be detected early in the life of a service
+- Practice can be reactive and proactive
+- Problems should be distinguished from incidents
+**Known Error vs Problem**
+- Problem: A cause, or potential cause, of prior, current or future incidents
+- Known Error: Problem that has already been analyzed but has not been resolved
+**The Three Steps of Problem Management**
+- Problem Identification
+	- Detection
+	- Logging (in problem record)
+	- Information gathering
+- Problem Control
+	- Prioritization (impact and probability)
+	- Root Cause Analysis (on all four dimensions)
+	- Workaround identification and documentation
+- Error Control
+	- Identification of a permanent solution
+	- Change request for applying the solution
+	- Regular re-assessment of known errors
+**Key Points Regarding Problem Management**
+- Some problems may remain known errors
+- Problem management is similar to risk management
+- Problems are solved only by implementing a change
+- Problem management and incident management depend on each other
+## 9.3 Service Request Management
+**Purpose of Service Request Management**
+- Purpose: To handle all pre-defined, user-initiated service requests in an effective and user-friendly manner
+- Definition: A request from a user or a user's authorized representative that initiates a service action which has been agreed a s a normal part of service delivery
+- Should be distinguished from Incidents
+- Must follow a Standard Procedure
+**Different Types of Service Requests (Examples)**
+- A user's request to relocate their computer
+- Request for information
+- Request from an internal team for accessing a resource
+- Feedback, compliments, or complaints
+- Most service requests are standard changes
+**Key Points Regarding Service Request Management**
+- Some request may require additional authorization
+- Procedures should be standardized
+- Available request types should be made visible to the customers
+- Automation of requests should be a priority
+- Clear policies should be defined
+## 9.4 Service Desk
+**Purpose of Service Desk**
+- Purpose: To capture demand for incident resolution and service requests
+- Acts as a single point of contact
+- Enable communication from and to the users
+- Has major influence on user experience and perception
+**Different Types of Service Desk**
+- Understanding and acting on business context is an essential skill
+- They must demonstrate excellent customer service, empathy and emotional intelligence
+- Local
+	- Located in the same place with the customer
+- Central
+	- Centralized providing remote support
+- Virtual
+	- Can be located anywhere but depends on the tools to collaborate and communicate
+**Different Technologies Useful for the Service Desk**
+- Robotic Process Automation (RPA) and chatbots with AI
+- Interactive Voice Response (IVR) and Automatic Cal Distribution (ACD)
+- Computer Telephony Integration (CTI) and remote access
+- Diagnostic scripts and knowledge bases
+- Self-Service tools for the users
+- The better tools they have, the more they can focus on human interaction
+## 9.5 Relationship Management
+**Purpose of Relationship Management**
+- Purpose: Establish and nurture the links between the organization and its stakeholders
+- Works at a strategic and tactical level
+- Identification, analysis, monitoring, and continual improvement of relationships with and between stakeholders
+**Key Points Regarding Relationship Management**
+- Relationship manager should never set unrealistic expectations when discussing or negotiating with customers
+- Relationship managers can act as escalation points for customers
+- Customer satisfaction is their primary measure for success
+****
+
+# 10 The ITIL Practices - Part 3
+## 10.1 Supplier Management
+**Purpose of Supplier Management**
+- Purpose: To ensure that the organization's suppliers and their performance are managed appropriately
+- Supports the provision of seamless quality products, and services
+- Create closer, more collaborative relationships with key suppliers to discover and realize new value and reduce the risk of failure
+**Key Activities of the Supplier Management Practice**
+- Suppliers selections
+- Contract negotiation and agreement
+- Relationship and performance management
+- Contract renewal/termination
+## 10.2 Information Security Management
+**Purpose of Security Management**
+- Purpose: To protect the information needed by the org
+- Defining and communicating a Security Policy
+- Identifying information security risks
+- Implementing security controls
+- Dealing with security incidents
+**Fundamental Elements of Security**
+- Confidentiality
+- Integrity
+- Availability
+- Authentication
+- Non-repudiation
+## 10.3 IT Asset Management
+**Key Elements of IT Asset Management**
+- Definition: IT Assets are all financially valuable components that can contribute to the delivery of an IT product or service
+- ![[Pasted image 20230428095629.png]]
+**Purpose of IT Asset Management Practice**
+- Purpose: To plan and manage the full lifecycle of all IT assets
+- Maximize value
+- Control costs
+- Manage risks
+- Meet regulatory and contractual requirements
+## 10.4 Service Configuration Management
+**Purpose of Service Configuration Management**
+- Purpose: TO ensure that accurate and reliable information about the configuration of services, and the CIs that support them, is available when and where it is needed.
+- Definition: A Configuration Item (CI) is any component that needs to be managed in order to deliver an IT service
+- CMDB (Configuration Management Database)
+**Key elements of the Service Configuration Management practice**
+- The CMDB documents relationships and attributes
+- Could describe a variety of assets (e.g. hardware, software, documentation, people, skills, services, etc.)
+- A cost vs benefit analysis is recommended
+- Configuration Management requires a very strict Change disciple
+## 10.5 Release Management
+**Purpose of the Release Management Practice**
+- Purpose: To make new and changed services and features available for use
+- Definition: A release is a version of a service or other configuration item or a collection of configuration items, this is made available for use
+**Key Elements of Release Management**
+- One release may comprise many different infrastructure and application components that work together to deliver new or changed functionality
+- May also include documentation,, training, updated processes or tools, or ant other components that are required
+- A good naming convention is essential
+## 10.6 Deployment Management
+**Purpose of Deployment Management**
+- Purpose: To move new or changed hardware, software, documentation, process, or any other components to live environments
+- May also be involved in deployment components to other environments for testing or staging
+**Key elements of Deployment Management**
+- Deployment Management is strictly coordinated by Release Management and Change Enablement
+- It moves release from one environment to another based on the decisions taken by Change Enablement
+- Dev -> Test -> Live
+## 10.7 Monitoring and Event Management
+**Purpose of Monitoring and Event Management Practice**
+- Purpose: To systematically observe services and service components, and report selected changes of state identified as events
+- Definition: An event represents any change of state that has significance for the management of a service or other Configuration Item (CI)
+**Key Considerations Regarding this Practice**
+- It relies heavily on automation (monitoring tools)
+- Three types of events 
+	- Informational
+	- Warning
+	- Exception
+- Greatly increases detection time
+- Improves customer satisfaction
+- May also be used for measuring and reporting
+
+****
+# 11 Course Conclusion
+## 11.1 Course Summary
+**Key Concepts Relating to Service Management**
+- Services and Service Management
+- Value and Cost
+- Output versus Outcome
+- Risk Management
+- Sponsors, Customers, and Users
+**Seven Guiding ITIL Principles**
+[[#3.2 Focus on the Value]]
+[[#3.3 Start Where You Are]]
+[[#3.4 Progress Iteratively with Feedback]]
+[[#4.1 Collaborating an Promoting Visibility]]
+[[#4.2 Thinking and Working Holistically]]
+[[#4.3 Keeping It Simple and Practical]]
+[[#4.4 Optimizing and Automating]]
+**Key concepts related to Service Management**
+- Value streams and Processes
+- Organizations and People
+- Information and Technology
+- Partners and Suppliers
+**Service Value System (SVS)**
+- Guiding Principles
+- Governance
+- Continual Improvement
+- Practices
+**Service Value Chain (SVC)**
+[[#7.2 Plan]]
+[[#7.3 Engage]]
+[[#7.4 Design and Transition]]
+[[#7.5 Obtain/Build]]
+[[#7.6 Deliver and Support]]
+[[#7.7 Improve]]
+**The ITIL Practices**
+[[#8.2 Service Level Management]]
+[[#8.3 Change Enablement]]
+[[#8.4 Continual Improvement]]
+[[#9.1 Incident Management]]
+[[#9.2 Problem Management]]
+[[#9.3 Service Request Management]]
+[[#9.4 Service Desk]]
+[[#9.5 Relationship Management]]
+[[#10.1 Supplier Management]]
+I[[#10.2 Information Security Management]]
+[[#10.3 IT Asset Management]]
+[[#10.4 Service Configuration Management]]
+[[#10.5 Release Management]]
+[[#10.6 Deployment Management]]
+[[#10.7 Monitoring and Event Management]]
+## 11.2 ITIL Qualification Scheme and Changes From V3
+**Key Differences Between ITIL V3 and ITIL 4**
+- No more service lifecycle
+- New concepts of SVC and the SVS
+- Processes and functions became practices
+- The Guiding Principles
+- More focus on continual improvement
+- More relevant for Agile, DevOps, and so on
+- Different qualification scheme
+**What Comes After the Foundation Certificate**
+![[Pasted image 20230428113758.png]]
+****
